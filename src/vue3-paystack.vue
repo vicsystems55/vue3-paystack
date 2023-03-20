@@ -122,11 +122,11 @@ export default /*#__PURE__*/defineComponent({
         //   this.onBankTransferConfirmationPending(response);
         // },
         // single split payments
-        //subaccount:this.subaccount,  //required for single split
+        subaccount:this.subaccount,  //required for single split
         //transaction_charge:this.transaction_charge,
         //bearer:this.bearer,
         // multi-split payments
-        //split_code:this.split_code, //required for multi-split
+        split_code:this.split_code, //required for multi-split
         // subscriptionss
         // plan: this.plan, //required for subscriptions
         // quantity: this.quantity,
