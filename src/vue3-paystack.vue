@@ -31,6 +31,14 @@ export default /*#__PURE__*/defineComponent({
       type: String,
       default: "",
     },
+    split_code: {
+      type: String,
+      default: "",
+    },
+    subaccount: {
+      type: String,
+      default: "",
+    },
     amount: {
       type: Number,
       required: true,
